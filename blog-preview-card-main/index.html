@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      font-family: 'Figtree', sans-serif;
+      font-weight: 800;
+    }
+
+    body{
+      background-color: hsl(47, 88%, 63%);
+    }
+
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      background-color: white;
+      box-shadow: 10px 10px;
+      padding: 20px;
+      border-radius: 5%;
+    }
+    .img{
+      width: 100%;
+      border-radius: 3%;
+    }
+
+    .ht{
+      font-size: 25px;
+      font-weight: 800;
+    }
+
+    .greg{
+      font-size: 15px;
+      font-weight: 700;
+      
+    }
+
+    .btn{
+      font-size: 10px;
+      font-weight: 1000;
+      background-color: hsl(47, 88%, 63%);
+      border: none;
+      padding: 6px 9px;
+    }
+
+    .author{
+      display: flex;
+      align-items: center;
+    }
+
+    .author span{
+      margin-left: 20px;
+    }
+    
+  </style>
+
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="card">
+        <img class="img" src="assets/images/illustration-article.svg">
+        <br><br>
+      <button class="btn">Learning</button>
+    
+      <p>Published 21 Dec 2023</p>
+        
+    
+     <p class="ht"> HTML & CSS foundations</p>
+    
+     <p> These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <div class="author">
+      <img src="assets/images/image-avatar.webp" alt="PIcture of Greg Hooper">
+    <span class="greg">Greg Hooper</span>
+    </div>
+     
+    </div>
+  </div>
+
+</body>
+</html>

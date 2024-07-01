@@ -1,0 +1,94 @@
+/* Importing the fonts */
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif:wght@400&family=Outfit:wght@400;600;700&display=swap');
+
+/* Global styles */
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    color: hsl(30, 10%, 34%);
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Young Serif', serif;
+    color: hsl(332, 51%, 32%);
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.5em 0;
+}
+
+h2, h3 {
+    font-size: 1.5em;
+    margin: 0.5em 0;
+}
+
+p {
+    margin: 0.5em 0;
+    line-height: 1.5;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+.main-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2em;
+    margin: 2em auto;
+    border-radius: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 1em;
+}
+
+.preparation, .ingredients, .instructions, .nutrition {
+    margin: 1.5em 0;
+}
+
+.preparation h3, .ingredients h2, .instructions h2, .nutrition h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.preparation li, .ingredients li, .instructions li, .nutrition li {
+    margin-left: 1em;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    padding: 1em;
+    border-radius: 0.5em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2, h3 {
+        font-size: 1.2em;
+    }
+}
+    
